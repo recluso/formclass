@@ -1,0 +1,39 @@
+body {
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: lightblue;
+    width: fit-content;
+}
+
+.fieldwrapper {
+    display: flex;
+    align-content: center;
+    margin: 10px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+.form-control:not(.form-control.form-control-color) {
+    margin-right: 0; /* Remove right margin from last item if needed */
+    margin-left: auto; /* Push the last item to the right */
+  }
+
+
+.btn {
+    width: fit-content; 
+  }
